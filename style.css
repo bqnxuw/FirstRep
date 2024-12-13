@@ -1,0 +1,845 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.underbackground {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #191411;
+    width: 100%;
+    height: 400vh;
+}
+
+.undermain_bg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.under_fire {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #191411;
+    width: 75%;
+    height: 400vh;
+}
+
+.main_bg {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+}
+
+.bar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: flex-start;
+    color: white;
+    width: 62%;
+    height: 150px;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.why_text {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.why_text:hover {
+    color: #ffc637;
+    transition: .5s;
+}
+
+.why_text:active {
+    color: #b48123;
+    transition: .2s;
+}
+
+.menu_burger_text {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 10px;    
+    margin-top: 10px;
+}
+
+.menu_burger_text:hover {
+    color: #ffc637;
+    transition: .5s;
+}
+
+.menu_burger_text:active {
+    color: #b48123;
+    transition: .2s;
+}
+
+.order_text {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.order_text:hover {
+    color: #ffc637;
+    transition: .5s;
+}
+
+.order_text:active {
+    color: #b48123;
+    transition: .2s;
+}
+
+.new_menu {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 71, 47);
+    width: 80px;
+    height: 28px;
+    color: white;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+
+.square_for_dollar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid white;
+    border-radius: 4px;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+
+.burger_logo {
+    width: 91px;
+    height: 30px;
+}
+
+.main_burger_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    position: relative;
+    width: 80.8%;
+    height: 540px;
+}
+
+.text_burg_chedder {
+    color: white;
+    width: 39%;
+    height: 90%;
+}
+
+.b_chedder {
+    margin-top: 0;
+    font-size: 80px;
+}
+
+.text_update_menu {
+    margin-top: -50px;
+}
+
+.show_menu {
+    border: 0;
+    margin-top: 10px;
+    background: linear-gradient(0.15turn, #ff9500, #ffb937, #ffc637);
+    border-radius: 5px;
+    width: 150px;
+    height: 38px;
+    font-size: 10px;
+}
+
+.show_menu:hover {
+    background: linear-gradient(0.15turn, #ffb043, #ffd078, #ffd66f);
+    transition: .5s;
+}
+
+.show_menu:active {
+    background: linear-gradient(0.15turn, #a36206, #b48123, #d8a524);
+}
+
+.main_burger_underbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 61%;
+}
+
+.main_burger_img {
+    margin-top: -120px;
+    margin-right: 30px;
+    position: absolute;
+    width: 780px;
+    height: 620px;
+}
+
+.why_choose_text {
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+}
+
+.why_choose_box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 430px;
+}
+
+.fire {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.first_reason {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 40%;
+    height: 430px;
+    z-index: 1;
+    color: white;
+}
+
+.bg_from_cartroon_burg {
+    width: 150px;
+}
+
+.cartoon_burg {
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+}
+
+.author_recipes_text {
+    width: 190px;
+    font-size: 16px;
+}
+
+.our_bergers_text {
+    font-size: 10px;
+    margin-left: 60px;
+    width: 50%;
+    height: 215px;
+}
+
+.second_reason {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 430px;
+    color: white;
+}
+
+.cartoon_meet {
+    width: 60px;
+    height: 60px;
+}
+
+.meet_text {
+    font-size: 16px;
+}
+
+.for_our_text {
+    font-size: 10px;
+    width: 70%;
+    height: 215px;
+}
+
+.third_reason {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    width: 40%;
+    height: 430px;
+}
+
+.bg_from_cartoon_truck {
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+}
+
+.cartoon_truck {
+    width: 60px;
+    height: 60px;
+}
+
+.speed_delivery_text {
+    display: flex;
+    justify-content: flex-end;
+    width: 190px;
+    font-size: 16px;  }
+
+.we_delivering_text {
+    font-size: 10px;
+    height: 215px;
+    width: 50%;
+}
+
+.choose_your_burg {
+    width: 1100px;
+    display: flex;
+    font-size: 40px;
+    position: absolute;
+    align-self: flex-end;
+    justify-content: center;
+    color: white;
+}
+
+.burger_cards_box {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 62%;
+    height: 1500px;
+}
+
+.line_first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    width: 33.33%;
+    height: 100%;
+}
+
+.burger_first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.img_burg_first {
+    margin-top: 10px;
+    width: 200px;
+    height: 170px;
+}
+
+.Chedder {
+    width: 85%;
+    font-size: 16px;
+}
+
+.info_Chedder {
+    width: 85%;
+    font-size: 10px;
+}
+
+.burger_first_price {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 13%;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.eight_dollar {
+    height: 10%;
+    font-size: 20px;
+}
+
+.gramm1 {
+    height: 50%;
+    font-size: 10px;
+    color: gray;
+}
+
+.order_box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+}
+
+.but_order_chedder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    height: 90%;
+    width: 85%;
+    background: linear-gradient(0.15turn, #d47f07, #da9c2a, #fdc129);
+    font-size: 11px;
+}
+
+.but_order_chedder:active {
+    background: linear-gradient(0.15turn, #a36206, #b48123, #d8a524);
+}
+
+.cart {
+    width: 15px;
+    height: 15px;
+}
+
+.burger_fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.burger_seventh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.burger_tenth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.line_second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    width: 33.33%;
+    height: 100%;
+}
+
+.burger_second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.img_burg_second {
+    margin-top: 10px;
+    width: 200px;
+    height: 170px;
+}
+
+.BBQ {
+    width: 85%;
+    font-size: 16px;
+}
+
+.info_BBQ {
+    width: 85%;
+    font-size: 10px;
+}
+
+.burger_second_price {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 13%;
+}
+
+.price_second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.seven_dollar {
+    height: 10%;
+    font-size: 20px;
+}
+
+.gramm4 {
+    height: 50%;
+    font-size: 10px;
+    color: gray;
+}
+
+.order_box_second {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+}
+
+.but_order_BBQ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    height: 90%;
+    width: 85%;
+    background: linear-gradient(0.15turn, #d47f07, #da9c2a, #fdc129);
+    font-size: 11px;
+}
+
+.but_order_BBQ:active {
+    background: linear-gradient(0.15turn, #a36206, #b48123, #d8a524);
+}
+
+.cart {
+    width: 15px;
+    height: 15px;
+}
+
+.burger_fivth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.burger_eighth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.burger_eleventh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.line_third {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    width: 33.33%;
+    height: 100%;
+}
+
+.burger_third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.burger_sixth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.burger_nineth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.burger_twelfth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid #312a26;
+    position: relative;
+    border-radius: 8px;
+    height: 350px;
+    width: 95%;
+    background-color: #211a16;
+    color: white;
+    z-index: 1;
+}
+
+.light_box {
+    position: absolute;
+    width: 61%;
+    height: 48.5%;
+}
+
+.light_first_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+
+.light_second_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 100%;
+}
+
+.light {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    z-index: 0;
+}
+
+.light_second {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    z-index: 0;
+}
+
+.placing_order {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 590px;
+    color: white;
+    font-size: 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    width: 75%;
+    height: 22.3%;
+}
+
+.from_endburg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 100%;
+}
+
+.end_burg {
+    width: 600px;
+    height: 500px;
+}
+
+.from_placing_box {
+    display: flex;
+    align-items: center;
+    width: 46%;
+    height: 100%;
+}
+
+.placing_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #211a16;
+    border: 0.1px solid #312a26;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.fill_details {
+    color: white;
+    font-size: 10px;
+}
+
+input {
+    width: 80%;
+    height: 12%;
+    background-color: transparent;
+    border: 1px solid #fdc129;
+    border-radius: 5px;
+    color: gray;
+    font-size: 8px;
+}
+
+.order_button {
+    background: linear-gradient(0.15turn, #d47f07, #da9c2a, #fdc129);
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    width: 80%;
+    height: 12%;
+    font-size: 10px;
+}
+
+.order_button:active {
+    background: linear-gradient(0.15turn, #a36206, #b48123, #d8a524);
+}
+
+.box_fill {
+    width: 80%;
+}
+
+.box_pepper_end {
+    margin-top: 239%;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.pepper_end {
+    width: 100%;
+}
+
+.finally_footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 285%;
+    align-self: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 10987600px;
+    height: auto;
+}
+
+.img_finally {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.logo_b {
+    width: 100px;
+    height: 30px;
+}
+
+.text_shield {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-Semibody.ttf');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Merriweather-Black.ttf');
+}
